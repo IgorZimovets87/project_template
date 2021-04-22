@@ -1,3 +1,3 @@
 FROM centos:7
-RUN yum install mc
+RUN yum -y install mc
 CMD tail -f /dev/null
